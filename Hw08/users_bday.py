@@ -14,7 +14,7 @@ def get_birthdays_per_week(users):
             bday_list.append(user) 
     print('User with Birthday in this week: ')
     for user in bday_list:
-        print(user['name'], '-', user['birthday'].strftime('%D.%M.%Y') )
+        print(user['birthday'].strftime('%D.%M.%Y'), '-', user['name'])
 
 #     current_date = datetime.date.today()
 #     print(current_date)
